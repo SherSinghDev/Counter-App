@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+/* For the Switcher */
+.switcher{
+    margin: 50px auto;
+    width: 200px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 6px 3px hotpink,0 0 4px 2px hotpink inset;
+}
+.toggler{
+    /* border: 2px solid red; */
+    height: 100%;
+    border-radius: 40px;
+    position: relative;
+    width: 77px;
+    transition: .6s;
+    background-color: lightseagreen;
+}
+.toggler::before{
+    content: '';
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    border: 2px solid white;
+    background-color: hotpink;
+    box-shadow: 0 0 4px 2px hotpink,0 0 4px 2px hotpink inset;
+    border-radius:40px ;
+    right: 0;
+}
+.switched{
+    width: 100%;
+}
+
+
+/* For the Range */
+
+.range{
+    border: 3px solid white;
+    height: 30px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 100px auto;
+    cursor: pointer;
+}
+.range-slider{
+    height: 100%;
+    /* width: 100%; */
+    background-color: greenyellow;
+    border-radius: 20px;
+    position: relative;
+    transition: .6s;
+}
+.range-slider::before{  
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: aqua;
+    border-radius: 20px;
+    right:0;
+    border: 2px solid white;
+}
+
+.range:hover .range-slider{
+    width: 50%;
+}

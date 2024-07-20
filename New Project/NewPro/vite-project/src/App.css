@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  padding-top: 20px;
+  color: white;
+}
+.navbar{
+  height: 120px;
+  border: 2px solid white;
+  box-shadow: 0 0 4px 2px lightseagreen, 0 0 4px 2px lightseagreen inset;
+  width: 98%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-inline: 40px;
+  border-radius: 10px;
+}
+.logo{
+  font-size: 40px;
+}
+.logo span{
+  color: hotpink;
+}
+.menu{
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.menu li a {
+  color: greenyellow;
+  text-decoration: none;
+  font-size: 20px;
+  transition: .6s;
+}
+.btn1{
+  padding: 15px 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  box-shadow: 0 0 4px 2px hotpink,  0 0 4px 2px hotpink inset;
+  color: white;
+  border-radius: 8px;
+  color: hotpink;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu li a:hover{
+  color: hotpink;
+}
+
+.main-content{
+  width: 70%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 80px;
+  border: 2px solid white;
+  padding: 50px;
+  padding-bottom: 20px;
+  /* box-shadow: 0 0 4px 2px greenyellow,0 0 4px 2px greenyellow inset; */
+  border-radius: 15px;
+}
+.main-content h1{
+  color: greenyellow;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+.main-content p{
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+.main-content .btn{
+  margin-top: 15px;
+}
+.btn-link{
+  color: hotpink;
+  text-decoration: none;
+  text-transform: uppercase;
+}

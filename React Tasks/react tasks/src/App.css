@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: white;
+}
+table{
+  border: 2px solid white;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+td{
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+tr{
+  border-collapse: collapse;
+}
+.nested-table td{
+  padding-block: 10px;
+}
+th{
+  padding-block: 15px;
+  border: 2px solid white;
+  border-collapse: collapse ;
+}

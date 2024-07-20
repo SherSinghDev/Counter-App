@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: black;
+  /* height: 100vh;
+  overflow: hidden; */
+}
+.nav-link{
+  color: hotpink !important;
+  font-size: 20px;
+  padding: 0;
+}
+.logo{
+  font-size: 40px;
+  color: greenyellow;
+}
+.m-head{
+  font-size: 50px;
+  color: white;
+}
+.m-head>span{
+  color: greenyellow;
+}
+.para{
+  font-size: 18px;
+  color: rgb(183, 179, 179);
+}
+.card>img{
+  height: 250px;
+}
+.card-title{
+  font-weight: bold;
+  color: greenyellow;
+  font-size: 30px;
+}
+.bg-super{
+  /* height: 100vh; */
+  background-image: url(assets/pngwing2.png);
+  background-position: center;
+  background-size: cover;
+  color: black;
+  font-weight: bolder;
+}
+.bg-super form{
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+}
